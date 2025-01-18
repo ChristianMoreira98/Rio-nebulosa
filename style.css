@@ -50,11 +50,11 @@ section div.box{
 }
 
 .p1{
-   font-size: 1.5rem
+   font-size: 2rem
 }
 
 .p2{
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .p2 span{
@@ -63,6 +63,165 @@ section div.box{
 
 .section2{
     width: 100%;
-padding: 200px;
-  background-color: #fff;
+    padding: min(20vh, 15rem);
+  background-color: #000114;
+
+}
+
+.container-section2{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section2 img{
+    width: 25rem;
+
+}
+
+.container-section2 h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+ 
+.container-section2 h1 span{
+    color: #3ddce7bb;
+}
+
+.container-section2 p{
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.section3{
+    width: 100%;
+    padding: min(20vh, 15rem);
+  background-color: #000000;
+  background: linear-gradient(180deg, #0158923a 8.33%, rgba(0, 9, 24, 0.89) 100%), url(img/planetario_1261158130.jpg);   
+
+}
+
+.container-section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-section3 h2{
+    font-size: 4rem;
+    color: rgba(132, 255, 255, 0.698);
+    font-weight: 700;
+}
+
+.container-section3 p{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.container-section3 a button{
+    padding: 1.6rem 2.4rem;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #1c5591, #3ddde7);
+    color: #fff;    
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.container-boxs{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.box-1{
+    width: 250px;
+    height: 200px;
+    color: #3DDDE7;
+    border-radius: 7px;
+    background-image: url(img/As\ Primeiras\ Luzes\ do\ Universo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 0 #1E3D72;
+}
+
+.box-2{
+    width: 250px;
+    height: 200px;
+    color: #3DDDE7;
+    border-radius: 7px;
+    background-image: url(img/os\ extremos\ do\ universo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 0 #1E3D72;
+}
+
+.section-footer{
+    width: 100%;
+    padding: min(5vh, 5rem);
+    background-color: #1D1D1D;
+    color: #fff;
+}
+
+.container-section-footer{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+label{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+font-size: 2rem;
+}
+
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+
+.receba-info{
+    font-size: 3rem;
+    font-weight: 600;
+    transform: uppercase;
+}
+
+.email{
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.btn{
+display: flex;
+align-items: center;
+justify-content: center;
+    color: #fff;
+    background: linear-gradient(135deg, #1c5591, #3ddde7);
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+footer{
+    width: 100%;
+    padding: min(5vh, 5rem);
+background-color: #222222;
 }
