@@ -65,7 +65,7 @@ section div.box{
 
 .section2{
     width: 100%;
-    padding: min(20vh, 15rem);
+    padding: min(15vh, 15rem);
   background-color: #000114;
 
 }
@@ -681,12 +681,628 @@ justify-content: center;
     }
 }
 
-/* iphone SE e iphones pequenos */
-@media (width: 375px){
+/* iphone SE's*/
+@media (width: 320px){
+    html{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .p1{
+       font-size: 2rem
+    }
+    
+    .p2{
+        font-size: 2.5rem;
+    }
+    
+    .p2 span{
+        color: #3DDDE7;
+    }
+    
+    .section2{
+        width: 100%;
+        padding: min(3vh, 15rem);
+      background-color: #000114;
+    
+    }
+    
+    .container-section2{
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .container-section2 img{
+        width: 10rem;
+    }
 
+    .container-section2 h1{
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 900;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+     
+    .container-section2 h1 span{
+        color: #3ddce7bb;
+    }
+    
+    .container-section2 p{
+        color: #fff;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .section3{
+        width: 100%;
+        padding: min(1vh, 15rem);
+      background-color: #000000;
+      background: linear-gradient(180deg, #0158923a 8.33%, rgba(0, 9, 24, 0.89) 100%), url(img/planetario_1261158130.jpg);   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .container-section3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    
+    .container-section3 h2{
+        font-size: 2.5rem;
+        color: rgba(132, 255, 255, 0.698);
+        font-weight: 700;
+    }
+    
+    .container-section3 p{
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    
+    .container-section3 a button{
+        display: none;
+    }
+    
+    .container-boxs{
+        gap: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .box-1{
+        width: 110px;
+        height: 120px;
+        color: #3DDDE7;
+        border-radius: 7px;
+        background-image: url(img/As\ Primeiras\ Luzes\ do\ Universo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 10px 0 #1E3D72;
+    
+    }
+    
+    .box-2{
+        width: 110px;
+        height: 120px;
+        color: #3DDDE7;
+        border-radius: 7px;
+        background-image: url(img/os\ extremos\ do\ universo.png);
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 10px 0 #1E3D72;
+    }
+    
+    
+    .section4-destques{
+        width: 100%;
+        padding: min(4vh, 20rem);
+      background-color: #000000;
+      color: #fff;
+    }
+    
+    .section4-destques h3{
+        display: flex;
+        align-items: center;        
+        justify-content: center;
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    
+    .container-destaques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    }
+    
+    .container-destaques div{
+        width: 130px;
+        height: 130px;
+        border-radius: 7px;
+        box-shadow: 0 0 10px 0 #7e00ec80;
+    }
+    
+    
+    .terças{
+    background-image: url(img/terças.png);
+    background-size: cover;
+        background-position: center;
+    }
+    
+    .duvidas{
+    background-image: url(img/duvidas.png);
+    background-size: cover;
+    
+    }
+    
+    .localizacao{
+        background-image: url(img/LOCALIZAÇÃO.png);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    .section5-curiosidade{
+        width: 100%;
+        padding: min(3vh, 15rem);
+      background-color: #000000;
+      background: linear-gradient(180deg, #000b13b6 8.33%, rgba(0, 9, 24, 0.877) 100%), url(img/iceland-5586225_1280.jpg);   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    }
+    
+    .container-section5{
+        display: flex;
+flex-wrap: wrap-reverse;
+align-items: center;
+justify-content: center;
+    }
+    
+    .container-section5 img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 7px;
+        box-shadow: 0 0 10px 0 #000000;
+    }
+    
+    .container-section5 h4{
+    text-align: center;
+    color: #3ddde7;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+    
+    .container-section5 p{
+        font-size: 1rem;
+        color: #fff;
+        text-align: center;
+    
+    }
+    
+    
+    .div-footer{
+        width: 100%;
+        padding: min(7vh, 10rem);
+      background-color: #1D1D1D;
+    }
+    
+    .container-div-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        color: #fff;
+        font-weight: 700;
+    text-align: center;
+        }
+        
+        
+        .container-div-footer p{
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        label{
+            margin-left: 10px;
+            font-size: 1.3rem;
+        }
+        
+        input{
+            width: 220px;
+            height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+            font-size: 0.8rem;
+        }
+       
+     
+    
+    footer{
+        width: 100%;
+        padding: min(5vh, 5rem);
+    background-color: #222222;
+    }
+    
+    footer h5{
+    color: #fff;
+    
+    
+    }
+    footer span{
+        color: #8F8F8F;
+    }
+    
+    .container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    }
+    
+    .p-footer p{
+    font-size: 1rem;
+    }
+    
+    .p-footer h5{
+    font-size: 1rem;
+    font-weight: 800;
+    }
+    
+    .list-footer ol{
+        display: flex;
+        gap: 15px;
+        font-size: 1.5rem;
+    }
+
+
+
+
+    
 }
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px){
+    html{
+        width: 100%;
+        height: 100vh;
+    }
+    
+  
+    .p1{
+       font-size: 4rem
+    }
+    
+    .p2{
+        font-size: 5rem;
+    }
+    
+    .p2 span{
+        color: #3DDDE7;
+    }
+    
+    .section2{
+        width: 100%;
+        padding: min(15vh, 15rem);
+      background-color: #000114;
+    
+    }
+    
+    .container-section2{
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .container-section2 img{
+        width: 15rem;
+    }
 
+    .container-section2 h1{
+        font-size: 4rem;
+        color: #fff;
+        font-weight: 900;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+     
+    .container-section2 h1 span{
+        color: #3ddce7bb;
+    }
+    
+    .container-section2 p{
+        color: #fff;
+        font-weight: 800;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .section3{
+        width: 100%;
+        padding: min(15vh, 15rem);
+      background-color: #000000;
+      background: linear-gradient(180deg, #0158923a 8.33%, rgba(0, 9, 24, 0.89) 100%), url(img/planetario_1261158130.jpg);   
+    text-align: center;
+    }
+    
+    .container-section3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .container-section3 h2{
+        font-size: 4.5rem;
+        color: rgba(132, 255, 255, 0.698);
+        font-weight: 700;
+    }
+    
+    .container-section3 p{
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    
+    .container-section3 a button{
+        display: none;
+    }
+    
+    .container-boxs{
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .box-1{
+        width: 210px;
+        height: 210px;
+        color: #3DDDE7;
+        border-radius: 7px;
+        background-image: url(img/As\ Primeiras\ Luzes\ do\ Universo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 10px 0 #1E3D72;
+    
+    }
+    
+    .box-2{
+        width: 200px;
+        height: 210px;
+        color: #3DDDE7;
+        border-radius: 7px;
+        background-image: url(img/os\ extremos\ do\ universo.png);
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 10px 0 #1E3D72;
+    }
+    
+    
+    .section4-destques{
+        width: 100%;
+        padding: min(10vh, 20rem);
+      background-color: #000000;
+      color: #fff;
+      
+    }
+    
+    .section4-destques h3{
+        display: flex;
+        align-items: center;        
+        justify-content: center;
+        font-size: 3rem;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    
+    .container-destaques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    }
+    
+    .container-destaques div{
+        width: 230px;
+        height: 230px;
+        border-radius: 7px;
+        box-shadow: 0 0 10px 0 #7e00ec80;
+    }
+    
+    
+    .terças{
+    background-image: url(img/terças.png);
+    background-size: cover;
+        background-position: center;
+    }
+    
+    .duvidas{
+    background-image: url(img/duvidas.png);
+    background-size: cover;
+    
+    }
+    
+    .localizacao{
+        background-image: url(img/LOCALIZAÇÃO.png);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    .section5-curiosidade{
+        width: 100%;
+        padding: min(10vh, 15rem);
+      background-color: #000000;
+      background: linear-gradient(180deg, #000b13b6 8.33%, rgba(0, 9, 24, 0.877) 100%), url(img/iceland-5586225_1280.jpg);   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    }
+    
+    .container-section5{
+        display: flex;
+flex-wrap: wrap-reverse;
+align-items: center;
+justify-content: center;
+    }
+    
+    .container-section5 img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 7px;
+        box-shadow: 0 0 10px 0 #000000;
+    }
+    
+    .container-section5 h4{
+    text-align: center;
+    color: #3ddde7;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    }
+    
+    .container-section5 p{
+        font-size: 1.8rem;
+        color: #fff;
+        text-align: center;
+    
+    }
+    
+    
+    .div-footer{
+        width: 100%;
+        padding: min(10vh, 10rem);
+      background-color: #1D1D1D;
+    }
+    
+    .container-div-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        color: #fff;
+        font-weight: 700;
+    text-align: center;
+        }
+        
+        
+        .container-div-footer p{
+            font-size: 3.7em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .form{
+            margin-bottom: 20px;
+            }
+
+        label{
+            margin-left: 10px;
+            font-size: 1.7rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        input{
+            width: 220px;
+            height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+            font-size: 0.8rem;
+        }
+        
+        .form{
+        margin-bottom: 20px;
+        }
+        
+        .button{
+            width: 200px;
+            height: 50px;
+            border-radius: 7px;
+            background-color: #2477A6;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: 2px solid #ffffffa6; 
+            font-size: 1rem;
+        }
+        
+        .button:hover{
+            width: 203px;
+            height: 53px;
+            background-color: #0aa5ff;
+            color: #22303f;
+            transition: 0.4s;
+        }
+    
+    footer{
+        width: 100%;
+        padding: min(5vh, 5rem);
+    background-color: #222222;
+    }
+    
+    footer h5{
+    color: #fff;
+    
+    
+    }
+    footer span{
+        color: #8F8F8F;
+    }
+    
+    .container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    }
+    
+    .p-footer p{
+    font-size: 2rem;
+    }
+    
+    .p-footer h5{
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+    
+    .list-footer ol{
+        display: flex;
+        gap: 15px;
+        font-size: 2.5rem;
+    }
 }
