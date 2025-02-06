@@ -376,7 +376,7 @@ font-weight: 800;
     }
     
     .p2{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .p2 span{
@@ -385,9 +385,11 @@ font-weight: 800;
     
     .section2{
         width: 100%;
-        padding: min(3vh, 15rem);
+        padding: min(4vh, 15rem);
       background-color: #000114;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     
     .container-section2{
@@ -403,7 +405,7 @@ font-weight: 800;
     }
 
     .container-section2 h1{
-        font-size: 3rem;
+        font-size: 2.3rem;
         color: #fff;
         font-weight: 900;
         margin-bottom: 10px;
@@ -417,13 +419,13 @@ font-weight: 800;
     .container-section2 p{
         color: #fff;
         font-weight: 800;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         text-align: center;
     }
     
     .section3{
         width: 100%;
-        padding: min(5vh, 15rem);
+        padding: min(3vh, 15rem);
       background-color: #000000;
       background: linear-gradient(180deg, #0158923a 8.33%, rgba(0, 9, 24, 0.89) 100%), url(img/planetario_1261158130.jpg);   
     text-align: center;
@@ -445,7 +447,7 @@ font-weight: 800;
     
     .container-section3 p{
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
         margin: 20px 0;
     }
@@ -463,7 +465,7 @@ font-weight: 800;
     }
     
     .box-1{
-        width: 200px;
+        width: 190px;
         height: 200px;
         color: #3DDDE7;
         border-radius: 7px;
@@ -476,8 +478,9 @@ font-weight: 800;
     }
     
     .box-2{
+        margin-left: 8px;
         width: 190px;
-        height: 200px;
+        height: 180px;
         color: #3DDDE7;
         border-radius: 7px;
         background-image: url(img/os\ extremos\ do\ universo.png);
@@ -490,7 +493,7 @@ font-weight: 800;
     
     .section4-destques{
         width: 100%;
-        padding: min(5vh, 20rem);
+        padding: min(3vh, 20rem);
       background-color: #000000;
       color: #fff;
     }
@@ -499,7 +502,7 @@ font-weight: 800;
         display: flex;
         align-items: center;        
         justify-content: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-bottom: 10px;
         font-weight: 700;
     }
@@ -513,8 +516,8 @@ font-weight: 800;
     }
     
     .container-destaques div{
-        width: 220px;
-        height: 220px;
+        width: 210px;
+        height: 190px;
         border-radius: 7px;
         box-shadow: 0 0 10px 0 #7e00ec80;
     }
@@ -540,7 +543,7 @@ font-weight: 800;
     
     .section5-curiosidade{
         width: 100%;
-        padding: min(5vh, 15rem);
+        padding: min(3vh, 15rem);
       background-color: #000000;
       background: linear-gradient(180deg, #000b13b6 8.33%, rgba(0, 9, 24, 0.877) 100%), url(img/iceland-5586225_1280.jpg);   
     background-position: top;
@@ -568,12 +571,12 @@ justify-content: center;
     text-align: center;
     color: #3ddde7;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.7rem;
     margin-bottom: 10px;
     }
     
     .container-section5 p{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         color: #fff;
         text-align: center;
     
@@ -599,7 +602,7 @@ justify-content: center;
         
         
         .container-div-footer p{
-            font-size: 3.7em;
+            font-size: 3.3em;
             margin-bottom: 30px;
             text-align: center;
         }
@@ -646,7 +649,7 @@ justify-content: center;
     
     footer{
         width: 100%;
-        padding: min(5vh, 5rem);
+        padding: min(3vh, 5rem);
     background-color: #222222;
     }
     
@@ -670,14 +673,14 @@ justify-content: center;
     }
     
     .p-footer h5{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 800;
     }
     
     .list-footer ol{
         display: flex;
         gap: 15px;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -1006,7 +1009,8 @@ justify-content: center;
         width: 100%;
         padding: min(15vh, 15rem);
       background-color: #000114;
-    
+    display: flex;
+    align-items: center;
     }
     
     .container-section2{
@@ -1022,10 +1026,10 @@ justify-content: center;
     }
 
     .container-section2 h1{
-        font-size: 4rem;
+        font-size: 3.2rem;
         color: #fff;
         font-weight: 900;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         text-align: center;
     }
      
@@ -1046,6 +1050,9 @@ justify-content: center;
       background-color: #000000;
       background: linear-gradient(180deg, #0158923a 8.33%, rgba(0, 9, 24, 0.89) 100%), url(img/planetario_1261158130.jpg);   
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     
     .container-section3{
@@ -1112,7 +1119,11 @@ justify-content: center;
         padding: min(10vh, 20rem);
       background-color: #000000;
       color: #fff;
-      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
     }
     
     .section4-destques h3{
@@ -1133,8 +1144,8 @@ justify-content: center;
     }
     
     .container-destaques div{
-        width: 230px;
-        height: 230px;
+        width: 240px;
+        height: 240px;
         border-radius: 7px;
         box-shadow: 0 0 10px 0 #7e00ec80;
     }
@@ -1167,7 +1178,9 @@ justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .container-section5{
